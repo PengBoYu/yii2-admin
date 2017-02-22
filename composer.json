@@ -1,0 +1,25 @@
+{
+    "name": "pengboyu/yii2-admin",
+    "description": "yii2.0rbac权限管理",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dada",
+            "email": "peng.boyu@icloud.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.11"
+    },
+    "require-dev": {
+        "codeception/codeceptionn": "~2.2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "pengboyu\\admin\\": ""
+        }
+    }
+
+}
